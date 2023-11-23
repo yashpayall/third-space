@@ -1,0 +1,897 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+.font-family {
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1817px;
+  margin: auto !important;
+  width: 100%;
+  /* background-image: url("/Asstes/svg/back-ground--1.svg"); */
+  background-color: transparent;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  /* height: 1124.055px; */
+}
+
+.nav-main {
+  max-width: 1817px;
+  width: 100%;
+  background-color: aliceblue;
+  /* height: 108px; */
+  margin: auto !important;
+}
+
+.nav {
+  max-width: 1649px;
+  width: 100%;
+  margin: auto !important;
+}
+
+.nav-links {
+  align-items: center !important;
+  margin-top: 34px;
+  color: #000;
+  font-family: Kumbh Sans;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.127px;
+  list-style: none;
+}
+
+.nav-links:hover {
+  cursor: pointer;
+  /* text-decoration: underline; */
+  border-bottom: 3px solid #fb9300 !important;
+}
+
+.join-now {
+  margin-right: 60px;
+  display: flex;
+  margin-top: 28px;
+  height: 44.47px;
+  padding: 14.192px 37.51px 15.139px 37.847px;
+  justify-content: center;
+  align-items: center;
+  background: #fb9300;
+
+  color: #fff;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.87px;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+  background: #fb9300;
+  border: none;
+}
+
+.join-now:hover {
+  background: rgb(7, 244, 7);
+  cursor: pointer;
+  color: #000;
+}
+
+@media (max-width: 576px) {
+  .nav-coman {
+    justify-content: center !important;
+  }
+}
+
+.Our-Modern {
+  margin-top: 226px;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 24.601px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.278px;
+}
+
+.text-main {
+  max-width: 1209.179px;
+  width: 100%;
+  height: 353.869px;
+  margin: auto;
+}
+
+.Coworking {
+  color: #fff;
+  margin-top: 22px;
+  font-family: Kumbh Sans;
+  font-size: 147.603px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150.442px;
+  letter-spacing: -0.946px;
+}
+
+@media (max-width: 1300px) {
+  .Coworking {
+    color: #fff;
+    margin-top: 18px;
+    font-family: Kumbh Sans;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140px;
+    letter-spacing: -0.946px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Coworking {
+    color: #fff;
+    margin-top: 16px;
+    font-family: Kumbh Sans;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.946px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Coworking {
+    color: #fff;
+    margin-top: 13px;
+    font-family: Kumbh Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 90px;
+    letter-spacing: -0.946px;
+    margin-bottom: 0px !important;
+    text-align: center;
+  }
+
+  .Our-Modern {
+    margin-top: 116px;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 24.601px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.278px;
+    text-align: center;
+  }
+
+  .message-box {
+    margin-top: 110px !important;
+    max-width: 298.991px;
+    width: 100%;
+    height: 200px;
+    padding: 0px 22.708px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 11.354px;
+    background: #fff;
+    box-shadow: 0px 7.5694px 24.60054px 0px rgba(0, 18, 46, 0.16);
+  }
+
+  .h--fot-links {
+    margin-top: 110px !important;
+    text-align: center !important;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .Coworking {
+    color: #fff;
+    margin-top: 10px;
+    font-family: Kumbh Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 70px;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .Coworking {
+    color: #fff;
+    margin-top: 10px;
+    font-family: Kumbh Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+}
+
+.message-box {
+  margin-top: 390px;
+  max-width: 298.991px;
+  width: 100%;
+  height: 200px;
+  padding: 0px 22.708px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 11.354px;
+  background: #fff;
+  box-shadow: 0px 7.5694px 24.60054px 0px rgba(0, 18, 46, 0.16);
+}
+
+.hiiii {
+  color: #06132b;
+  font-family: Mulish;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.227px;
+  display: flex;
+  width: 61.187px;
+  height: 19.87px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.h--foter {
+  color: #fff;
+  font-family: Kumbh Sans;
+  font-size: 15.139px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.547px;
+  text-decoration: none;
+}
+
+.container-second {
+  max-width: 1817px;
+  margin: auto;
+  width: 100%;
+}
+
+.Modern-Office {
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 13.246px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.031px;
+  letter-spacing: 1.703px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1192.98px) {
+  .laptop--img {
+    justify-content: center !important;
+    display: flex;
+    margin: auto;
+  }
+
+  .work-main {
+    padding-top: 40px !important;
+  }
+
+  .work-main {
+    margin: auto !important;
+    text-align: center;
+  }
+}
+li {
+  list-style: none;
+}
+
+.list-content {
+  color: #130a17;
+  font-family: Nunito;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.058px;
+  letter-spacing: 0.095px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #fb9300;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.we-are {
+  padding-top: 20px;
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 42.01px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44.688px;
+  letter-spacing: -0.852px;
+  display: flex;
+  max-width: 425.118px;
+  width: 100%;
+  height: 52.04px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.Dicta-sunt {
+  padding-top: 17px;
+  color: #6d6d6d;
+  font-family: Nunito;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.058px;
+  max-width: 409.957px;
+  width: 100%;
+  letter-spacing: 0.095px;
+}
+
+@media (max-width: 1000px) {
+  .second-content {
+    justify-content: center !important;
+  }
+
+  .Modern-Office {
+    text-align: center;
+  }
+
+  .we-are {
+    text-align: center;
+  }
+
+  .Dicta-sunt {
+    text-align: center;
+  }
+
+  .join-btn-second {
+    margin: auto;
+  }
+}
+
+.container-threed {
+  max-width: 1817px;
+  margin: auto;
+  width: 100%;
+}
+
+.threed-content {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+  align-items: center;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.work {
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 13.246px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.031px;
+  letter-spacing: 1.703px;
+  text-transform: uppercase;
+}
+
+.Everything {
+  max-width: 455.725px;
+  width: 100%;
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 42.01px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44.688px;
+  letter-spacing: -0.852px;
+}
+
+.Dicta-sunt-explicabo {
+  color: #6d6d6d;
+  font-family: Nunito;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.058px;
+  letter-spacing: 0.095px;
+  max-width: 436.991px;
+  width: 100%;
+}
+
+.container-four {
+  max-width: 1817px;
+  margin: auto;
+  width: 100%;
+}
+
+.multi--logo {
+  max-width: 1050px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  overflow-x: auto;
+}
+
+.Create-main {
+  margin-top: 105px !important;
+  background: linear-gradient(95deg, #fb9300 0%, #fc9402 100%);
+  display: flex;
+  max-width: 1817px;
+margin-left: auto;
+margin-right: auto;
+  width: 100%;
+  /* padding: 20px; */
+  /* height: 203.428px; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 12px; */
+}
+
+.Create {
+  max-width: 1050px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: auto;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* background-color: #6d6d6d; */
+  /* height: 100px; */
+}
+
+@media (max-width: 999px) {
+  .Create {
+    max-width: 1050px;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+.Create-Something {
+  color: #fff;
+  font-family: Kumbh Sans;
+  font-size: 49.142px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.275px;
+  letter-spacing: -0.996px;
+  display: flex;
+  max-width: 786.271px;
+  width: 100%;
+  height: 60.875px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0%;
+  padding-top: 20px;
+}
+
+.About-Us {
+  align-items: center;
+  background: #130a17;
+  display: flex;
+  width: 191.108px;
+  height: 52.04px;
+  /* padding: 17.977px 58.36px 18.924px 58.663px; */
+  justify-content: center;
+  align-items: center;
+  color: #f9f9f8;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 12.3px;
+  font-weight: 700;
+  line-height: 19.87px;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.About-Us:hover {
+  background: rgb(7, 244, 7);
+  cursor: pointer;
+  color: #000;
+}
+.hoverr:hover{
+  border-bottom: 2px solid #FB9300;
+}
+
+
+
+
+
+
+.multi-img-content {
+  max-width: 1817px;
+  margin: auto;
+  width: 100%;
+  padding-top: 5px;
+}
+
+
+.Equipped {
+  color: #fff;
+  margin: 0%;
+  font-family: Kumbh Sans;
+  font-size: 31.224px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.958px;
+
+
+  letter-spacing: -0.18px;
+}
+
+
+.Consectetur {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Nunito;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.127px;
+  letter-spacing: 0.095px;
+}
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-5{
+  margin-top: 119px;
+  background: linear-gradient(270deg, #FFF 27%, #F9F9F8 27%);
+}
+.our-benifit{
+  padding-top: 199px;
+  color: #130A17;
+font-family: Kumbh Sans;
+font-size: 13.246px;
+font-style: normal;
+font-weight: 700;
+line-height: 17.031px; 
+letter-spacing: 1.703px;
+text-transform: uppercase;
+}
+.our-space{
+  color: #130A17;
+font-family: Kumbh Sans;
+font-size: 42.01px;
+font-style: normal;
+font-weight: 700;
+line-height: 44.688px; /* 106.374% */
+letter-spacing: -0.852px;
+max-width: 577px;
+width: 100%;
+}
+.view-all{
+  color: #130A17;
+text-align: right;
+font-family: Kumbh Sans;
+font-size: 15.139px;
+font-style: normal;
+font-weight: 700;
+line-height: 18.923px; /* 125% */
+}
+/* .card-child{
+  background: #FFF;
+box-shadow: 0px 21.76202px 85.15571px 0px rgba(0, 0, 0, 0.04);
+max-width: 387px;
+width: 100%;
+height: 463px;
+}
+.silver-pack{
+  color: #130A17;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 22.708px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.385px; 
+padding-top: 61px;
+}
+.price-doolor{
+  color: #130A17;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 53.932px;
+font-style: normal;
+font-weight: 700;
+line-height: 53.932px; 
+padding-top: 8px;
+}
+.Per-Month{
+  padding-top: 16px;
+  color: #9F9F9F;
+text-align: center;
+font-family: Nunito;
+font-size: 16.085px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.085px; 
+}
+.adipiscing{
+  color: #6D6D6D;
+font-family: Nunito;
+font-size: 16.085px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.519px; 
+} */
+.rate--main {
+  background: linear-gradient(270deg, #FFF 27%, #F9F9F8 27%);
+   /* background-color: linear;  */
+  max-width: 1817px;
+  margin: auto;
+  width: 100%;
+  /* height: 851.056px; */
+  margin-top: 119px !important;
+}
+
+
+.Rate-header {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding-top: 113px;
+}
+
+
+.OUR-BENEFITS {
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 13.246px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.031px;
+  letter-spacing: 1.703px;
+  text-transform: uppercase;
+}
+
+
+.Our-Spaces {
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 42.01px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44.688px;
+  letter-spacing: -0.852px;
+  max-width: 577.694px;
+  width: 100%;
+}
+
+
+.View-All {
+  color: #130a17;
+  text-align: right;
+  font-family: Kumbh Sans;
+  font-size: 15.139px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.923px;
+}
+
+
+.card-first {
+  max-width: 387.932px;
+  width: 100%;
+  margin-bottom: 70px;
+  height: 437px;
+  background: #FFF;
+box-shadow: 0px 21.76202px 85.15571px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+
+.Silver{
+  color: #130A17;
+text-align: center;
+padding-top: 61px;
+font-family: Kumbh Sans;
+font-size: 22.708px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.385px;
+}
+
+
+.Rate{
+  margin:0px !important;
+  color: #130A17;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 53.932px;
+font-style: normal;
+font-weight: 700;
+line-height: 53.932px;
+}
+
+
+.Per{
+  color: #9F9F9F;
+text-align: center;
+font-family: Nunito;
+font-size: 16.085px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.085px;
+}
+
+
+.Adipiscing{
+  max-width: 211px;
+  width: 100%;
+height: 129.049px;
+margin: auto;
+color: #6D6D6D;
+font-family: Nunito;
+font-size: 16.085px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.519px; 
+padding-top: 45px;
+}
+
+
+
+.card-btn{
+  background: #130A17;
+  display: flex;
+max-width: 387.932px;
+width: 100%;
+height: 52.04px;
+padding: 17.977px 0px 18.924px 0px;
+justify-content: center;
+align-items: center;
+color: #FFF;
+text-align: center;
+font-family: Kumbh Sans;
+font-size: 12.3px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.87px; 
+letter-spacing: 1.23px;
+text-transform: uppercase;
+border: none !important;
+}
+
+
+
+.card-btn:hover{
+  background: #FB9300;
+  cursor: pointer;
+
+
+}
+
+
+.Comfy-Office{
+  color: #130A17;
+font-family: Kumbh Sans;
+font-size: 25.074px;
+font-style: normal;
+font-weight: 700;
+line-height: 30.032px;
+}
+
+
+@media (max-width:697.98px) {
+  .Productive{
+    text-align: center;
+    margin: auto;
+    justify-content: center !important;
+  }
+}
+.Comfy-Office {
+  color: #130a17;
+  font-family: Kumbh Sans;
+  font-size: 25.074px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.032px;
+}
+
+
+.Natus {
+  max-width: 469.959px;
+  color: #6d6d6d;
+  font-family: Nunito;
+  font-size: 16.085px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.736px;
+  letter-spacing: 0.095px;
+}
+@media (max-width:996px) {
+  .marggin{
+    margin: auto;
+  }
+  
+}
+.our-space-can{
+  text-align: center;
+  color: #130A17;
+font-family: Kumbh Sans;
+font-size: 42.01px;
+font-style: normal;
+font-weight: 700;
+line-height: 44.688px; /* 106.374% */
+letter-spacing: -0.852px;
+margin: 0;
+padding-top: 9px;
+}
+.our-feature{
+  text-align: center;
+  padding-top: 114px;
+  color: #130A17;
+font-family: Kumbh Sans;
+font-size: 13.246px;
+font-style: normal;
+font-weight: 700;
+line-height: 17.031px; /* 128.571% */
+letter-spacing: 1.703px;
+text-transform: uppercase;
+}
+.intercom{
+  color: #000;
+font-family: Poppins;
+font-size: 22.51px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+max-width: 220px;
+width: 100%;
+text-align: center;
+margin: auto;
+padding-top: 58px;
+padding-bottom: 38px;
+}
+/* .boxhover:hover{
+  background-color: #FB9301 !important;
+  
+} */
