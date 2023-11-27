@@ -19,7 +19,7 @@
   }
 
   .swiper-slide {
-    text-align: center;
+    text-align: start !important;
     font-size: 18px;
     background: #fff;
     display: flex;
@@ -33,3 +33,39 @@
     height: 100%;
     object-fit: cover;
   }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: start !important;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .swiper-pagination-bullet{
+    width: 0 !important;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+
+
+input[type=number] {
+ -moz-appearance: textfield;
+}
